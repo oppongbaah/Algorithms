@@ -1,0 +1,15 @@
+import { palindrome } from "./palindrome";
+import TestRunner from "../testRunner";
+
+const data = {
+	"isaac": false,
+	"wow": true,
+	"mum": true,
+	"elephant": false
+};
+
+const testRunner = new TestRunner({
+	totalTest: Object.keys(data).length,
+	algorithm: palindrome,
+	data
+});

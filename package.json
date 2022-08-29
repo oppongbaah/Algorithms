@@ -1,0 +1,12 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "Project to contain all algorithms",
+  "main": "src/testRunner.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "oppongbaahisaacmega@gmail.com",
+  "license": "MIT",
+  "module": "common"
+}
